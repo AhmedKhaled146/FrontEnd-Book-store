@@ -1,0 +1,113 @@
+body {
+    background-color: #ededed;
+}
+
+.book-info .media .image img
+{
+    max-width: 200px;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.book-info .media-text
+{
+    text-transform: lowercase;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    line-height: 2;
+
+}
+.book-info .media-text h2
+{
+    font: 25px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+
+.book-info .media-text table tbody
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.book-info .media-text table tbody tr td:first-child
+{
+    padding-left: 15px;
+    font-weight: 600;
+}
+.book-info .media-text table tbody tr td:last-child
+{
+    font-weight: 500;
+}
+.book-info .media-text table tbody tr td a
+{
+    color: var(--main-color);
+    transition: .3s;
+}
+.book-info .media-text table tbody tr td a:hover
+{
+    color: var(--light-color);
+    text-decoration: underline;
+    color: aqua;
+    margin-right: 5px;
+}
+/* end book-information */
+/* ================================= */
+/* start book describtion */
+.desc
+{
+    padding: 3% 5%;
+    margin: auto;
+}
+.desc .container
+{
+    box-shadow: 10px 15px 4px 3px var(--black);
+    height: 500px;
+    width: 1000px;
+    margin: 40px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+    
+}
+.desc .container .text
+{
+    padding: 20px 20px 0;
+}
+.desc .container .text h2
+{
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.desc .container .text h2::after
+{
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 88%;
+    right: 45%;
+    background-color: var(--main-color);
+}
+.desc .container .text p
+{
+    color: var(--light-color);
+}
+
+
+
+
+
+
+/* end book describtion */
+
+
+
+
+
